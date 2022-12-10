@@ -13,7 +13,7 @@ const Homepage = () =>{
         <div className = "homepage">
             <h1>Hello Homepage</h1>
             <div className="button" onClick={ () => navigate("/login")}>login</div>
-            <div className="button" onClick={ () => auth.signOut()}>logout</div>
+            {/* <div className="button" onClick={ () => auth.signOut()}>logout</div> */}
         </div>
             {/* <Phone/> */}
         </>

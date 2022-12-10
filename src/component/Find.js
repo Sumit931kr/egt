@@ -57,7 +57,7 @@ navigate('/login')
                     <div>Enter the character</div>
                     <input type="text" value={data.character} name='character' maxLength={1} onChange={onchange} />
                 </div>
-                <button disabled={data.string.length < 3 || data.character.length === 0} onClick={find}>Submit</button>
+                <button className='mt-3' disabled={data.string.length < 3 || data.character.length === 0} onClick={find}>Submit</button>
                 <div id="output"></div>
             </header>
         </div>
