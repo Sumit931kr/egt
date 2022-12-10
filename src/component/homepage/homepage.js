@@ -11,7 +11,7 @@ const Homepage = () =>{
     return(
         <>
         <div className = "homepage">
-            <h1>Hello Homepage</h1>
+            <h1>Hello Beautiful People</h1>
             <div className="button" onClick={ () => navigate("/login")}>login</div>
             {/* <div className="button" onClick={ () => auth.signOut()}>logout</div> */}
         </div>
